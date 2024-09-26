@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Files and Interview Preparation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome for icons -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 16px;
+        }
+
+        header {
+            background-color: #28a745; /* Green header */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr; /* Full-width layout */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .pdf-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 20px;
+        }
+
+        .pdf-item {
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+
+        .pdf-item:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .pdf-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .pdf-options {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .pdf-options a {
+            text-decoration: none;
+            color: #28a745;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .pdf-options a:hover {
+            color: #007BFF; /* Change link color to blue on hover */
+        }
+
+        .pdf-options a i {
+            margin-right: 5px;
+        }
+
+        footer {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PDF Files & Interview Preparation</h1>
+</header>
+
+<div class="container">
+    <!-- PDF Section -->
+    <div class="section pdf-section">
+        <h2>PDF Files</h2>
+        <div class="pdf-list">
+            <div class="pdf-item">
+                <img src="assets/img/Screenshot 2024-09-25 215721.png" alt="PDF 1 Thumbnail">
+                <div class="pdf-options">
+                    <a href="https://drive.google.com/file/d/1uVJQsuFKreUb0r36eZUM3x7yjPZujzdD/view?usp=drive_linkf" target="_blank">
+                        <i class="fas fa-eye"></i>View PDF
+                    </a>
+                    <a href="https://drive.google.com/file/d/1uVJQsuFKreUb0r36eZUM3x7yjPZujzdD/view?usp=drive_link" download>
+                        <i class="fas fa-download"></i>Download PDF
+                    </a>
+                </div>
+            </div>
+
+            <div class="pdf-item">
+                <img src="assets/img/Screenshot 2024-09-25 223626.png" alt="PDF 2 Thumbnail">
+                <div class="pdf-options">
+                    <a href="https://drive.google.com/file/d/15qa6NrIM-7BAkZgmmxlcLjEWgbFOVe7L/view?usp=drive_link" target="_blank">
+                        <i class="fas fa-eye"></i>View PDF
+                    </a>
+                    <a href="https://drive.google.com/file/d/15qa6NrIM-7BAkZgmmxlcLjEWgbFOVe7L/view?usp=drive_link" download>
+                        <i class="fas fa-download"></i>Download PDF
+                    </a>
+                </div>
+            </div>
+
+            <div class="pdf-item">
+                <img src="assets/img/Screenshot 2024-09-25 222932.png" alt="PDF 3 Thumbnail">
+                <div class="pdf-options">
+                    <a href="https://teambuilding.com/blog/interview-email-templates" target="_blank">
+                        <i class="fas fa-eye"></i>View PDF
+                    </a>
+                    <a href="https://teambuilding.com/blog/interview-email-templates" download>
+                        <i class="fas fa-download"></i>Download PDF
+                    </a>
+                </div>
+            </div>
+
+            <div class="pdf-item">
+                <img src="https://via.placeholder.com/200x150?text=PDF+Thumbnail+4" alt="PDF 4 Thumbnail">
+                <div class="pdf-options">
+                    <a href="pdfs/sample4.pdf" target="_blank">
+                        <i class="fas fa-eye"></i>View PDF
+                    </a>
+                    <a href="pdfs/sample4.pdf" download>
+                        <i class="fas fa-download"></i>Download PDF
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="section interview-prep">
+            <h2>Interview Preparation (soon available)</h2>
+            <ul>
+                <li>Top 10 common interview questions to prepare.</li>
+                <li>How to structure your answers effectively.</li>
+                <li>Resume tips and tricks for making an impression.</li>
+                <li>How to handle technical interviews.</li>
+                <li>Tips for succeeding in behavioral interviews.</li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+<footer>
+    <p>&copy; 2024 ningaafk.</p>
+</footer>
+
+</body>
+</html>
